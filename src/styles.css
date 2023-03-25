@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+
+.k-grid.k-custom-grid .k-grid-header,
+.k-grid.k-custom-grid .k-grouping-header,
+.k-grid.k-custom-grid .k-grid-add-row,
+.k-grid.k-custom-grid .k-grid-footer,
+.k-grid.k-custom-grid .k-table-thead,
+.k-grid.k-custom-grid .k-table-header,
+.k-grid.k-custom-grid .k-table-group-sticky-header,
+.k-grid.k-custom-grid .k-pager {
+  background-color: #F0F6FF;
+  font-size: 12px;
+}
+
+.k-grid.k-custom-grid.k-table-th,
+.k-grid.k-custom-grid .k-table-td {
+  font-size: 12px;
+} 

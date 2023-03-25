@@ -7,6 +7,8 @@ import { DateInputsModule } from '@progress/kendo-angular-dateinputs';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { GridModule } from '@progress/kendo-angular-grid';
 import { LayoutModule } from '@progress/kendo-angular-layout';
+import { NavigationModule } from '@progress/kendo-angular-navigation';
+
 
 
 
@@ -22,7 +24,8 @@ import { LayoutModule } from '@progress/kendo-angular-layout';
     DateInputsModule,
     BrowserAnimationsModule,
     GridModule,
-    LayoutModule
+    LayoutModule,
+    NavigationModule
   ],
   providers: [],
   bootstrap: [AppComponent]
